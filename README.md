@@ -2,6 +2,8 @@
 
 The goal of this workshop is to discover reverse engineering.
 
+I let files on purpose but if you need to read them then you should probably get back on Fortnite.
+
 ### Build
 
 `chmod +x script.sh && ./setup.sh && cd binaries/`
@@ -17,6 +19,7 @@ The goal of this workshop is to discover reverse engineering.
 To avoid hard struggle you should follow exercises in this order:
 - asm_reader
 - random
+- research
 
 ### Participate
 
