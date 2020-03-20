@@ -16,7 +16,7 @@ int main(int ac, char **av)
 {
     const char charset[] = "IHaveNoIdeaWtfImDoingRightNow";
     const int len = strlen(charset);
-    char res[50] = {};
+    char res[51] = {};
 
     if (ac != 2) {
         printf("Gimme pass bro!\n");
@@ -29,6 +29,7 @@ int main(int ac, char **av)
     for (int i = 0; i < 50; i++) {
         res[i] = charset[((i % strlen(strchr(charset, (charset[i % (len)])))) + i) % len];
     }
+    res[50] = '\0';
     if (compare(av[1], res)) {
         printf("PoC{%s}\n", av[1]);
         return 0;
