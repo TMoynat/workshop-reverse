@@ -20,5 +20,5 @@ To avoid hard struggle you should follow exercises in this order:
 
 ### Participate
 
-If you want to help, Pull Requests are welcome!
+If you want to help, Pull Requests are welcome!  
 Please update `setup.sh` with compilation line and update Readme to tell when your exercise should be attempted too keep an increasing difficulty in exercises order.
