@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 mkdir binaries
-gcc asmReader.c -o binaries/asmReader
+gcc asm_reader.c -o binaries/asm_reader
